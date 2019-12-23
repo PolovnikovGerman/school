@@ -1,1 +1,3 @@
-<h1>Video School</h1>
+<h1>
+    <?=Yii::t('app','Welcome!')?>
+</h1>

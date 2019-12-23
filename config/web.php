@@ -3,8 +3,6 @@
     return [
         'id' => 'school-test-web',
         'basePath' => realpath (__DIR__.'/../'),
-        'sourceLanguage' => 'en',
-        'language' => 'ru',
         'bootstrap' => [
             'debug',
         ],
@@ -12,6 +10,9 @@
             'urlManager' => [
                 'enablePrettyUrl' => true,
                 'showScriptName' => false,
+                'class' => 'codemix\localeurls\UrlManager',
+                'languages' => ['ru', 'en'],
+                'enableDefaultLanguageUrlCode' => true,
             ],
             'request' => [
                 'cookieValidationKey' => 'xvFBNRx8PX9naNFj',

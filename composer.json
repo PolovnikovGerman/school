@@ -5,7 +5,8 @@
         "phpunit/phpunit": "^5",
         "yiisoft/yii2-bootstrap": "*",
         "yiisoft/yii2-debug": "~2.1.0",
-        "fzaninotto/faker": "*"
+        "fzaninotto/faker": "*",
+        "codemix/yii2-localeurls": "*"
     },
     "config" : {
         "fxp-asset" : {
